@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 5px 1px black;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  grid-template-rows: 300px 300px 400px 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 20px 0;
+}
+
+.card {
+  border: 2px solid bisque;
+  border-radius: 5%;
+  background-color: rgb(233, 198, 146);
+  box-shadow: 1px 6px 4px;
+  margin-bottom: 0;
+  
+}
+
+hr {
+  color: white;
+}
+
+.card h2 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  margin: 0;
+  color: rgba(58, 24, 0, 0.959);
+  padding: 0;
+}
+
+.card h3 {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 15px;
+  font-size: 20px;
+  padding: 5px 0 2px 5px;
+  margin: 0;
+  color: rgb(110, 62, 0);
+}
+
+.card p {
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0px 2px 2px 2px;
+  font-weight: bold;
+  color: rgb(152, 99, 49);
+}
+
+.HEM {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 170px;
+  text-align: center;
+  align-items: center;
+}
+
+.gold {
+  margin-left: 53px;
+}
+
+.health{
+  margin-left: 8px;
+}
+
+.HEM .energy,
+.health,
+.gold {
+  width: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(105, 64, 45);
+  color: rgb(249, 205, 188);
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(249, 205, 188);
+}
+
+a:hover {
+  background-color: rgb(249, 205, 188);
+  color: rgb(47, 33, 27);
+  cursor: pointer;
+}
+
+h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+h2:hover {
+  background-color: rgb(249, 205, 188);
+  color: rgb(47, 33, 27);
+}

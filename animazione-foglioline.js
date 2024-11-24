@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const numberOfLeaves = 18; // Numero di foglioline
-    const leafImage = "/Assets/foglia.png"; // Percorso immagine della foglia
+    const leafImage = "./Assets/foglia.png"; // Percorso immagine della foglia
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
 
